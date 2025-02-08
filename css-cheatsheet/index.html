@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital@0;1&family=Space+Mono&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles.css">
+        <title>HTML and CSS tricks & Tips</title>
+    </head>
+    <body>
+        <header class="top">
+            <nav class="navigation">
+                <ul>
+                    <li class="navbar"><a href="">Home</a></li>
+                    <li class="navbar"><a href="#intro">Intro</a></li>
+                    <li class="navbar"><a href="#html">Html tips</a></li>
+                    <li class="navbar"><a href="#css">Css tips</a></li>
+                    <li class="navbar"><a href="#conclusion">Conclusion</a></li>
+                </ul>
+            </nav>
+            <div class="banner">
+                <h1>Learn usefull HTML and CSS tricks and tips</h1>
+            </div>
+        </header>
+        <main>
+            <section id="intro">
+                <h2>Introduction</h2>
+                <p>On this website you'll find a list of coding tricks and tips I find quite usefull to remember 
+                    when building a website. I'll add more tips as I go, so check in regularly. 
+                    Some a pretty basics, some are a bit more niche, but they all come handy in a pinch. 
+                    Feel free to refer to the two tables bellow whenever. The first one focuses on <em class="HtmlColour">Html</em> tips 
+                    and the second one is for <em class="CssColour">Css</em> tricks. 
+                </p>
+            </section>
+            <section id="html">
+                <h2>Html</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="row1">Tip</th>
+                            <th class="row2">Explanation</th>
+                            <th class="row3">Code</th>
+                            <th class="row4">Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Show HTML code on webpage</td>
+                            <td>Since any html element in the code will be rendered by the browser, some specials characters are needed 
+                                to dispay element code on the webpage</td>
+                            <td>use & lt; to represent &lt; and & gt; to represent &gt;</td>
+                            <td>&lt;h1&gt;Title&lt;/h1&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>Link to section of same page</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Add css styling directly in html code</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="css">
+                <h2>Css</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="row1">Tip</th>
+                            <th class="row2">Explanation</th>
+                            <th class="row3">Code</th>
+                            <th class="row4">Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Give a container a round border</td>
+                            <td>Container are square by default but changing the border from rectangle to round can be achieved using 
+                                the css proprety border-radius and making the radius half the size of the container</td>
+                            <td> container {<br>  border: 1px solid black;<br>  border-radius: 50%;<br>}</td>
+                            <td><div id="circle"></div></td>
+                        </tr>
+                        <tr>
+                            <td>Box size calculation</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>table border collapse</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Add font file in css</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="conclusion">
+                <h2>Conclusion</h2>
+                <p>Well, I certainly learned a few things putting this website toghether. The most usefull tips of them all is maybe to use the browser <strong>DevTools</strong>
+                    to troubleshoot and inspect what is happening when containers are not displaying where you want them. It can be a real timesaver!
+                    I'll try to add a few more entries in the coming days if I have time.</p>
+            </section>
+        </main>
+        <footer>
+            <p>Written by a total noob</p>
+        </footer>
+    </body>
+    </html>
+
+    <!-- C:\Users\liani\Desktop\Projects\css-cheatsheet\index.html-->
+    <!-- tips to include: how to display html element, how to link to section of page, how to include css in html, 
+     how to add font file in css, how to make a round border for a container, table border collapse, overide browser default styling
+     border box vs content box, order of link pseudo class, transition, css arrow trick-->

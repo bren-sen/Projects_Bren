@@ -1,0 +1,39 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+nav {
+    position: fixed;
+    background-color: paleturquoise;
+    width: 100%;
+}
+
+.navigation {
+    display: inline-block;
+    width: 120px;
+}
+
+main {
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
+
+#thecat {
+    width: 500px;
+    height: auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: paleturquoise;
+    width: 100%;
+    padding-left: 50px;
+}
